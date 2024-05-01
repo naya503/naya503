@@ -8,6 +8,9 @@
 - Connect With Me [Facebook](https://www.facebook.com/profile.php?id=100043475408245)
  
 ```python
+import nothing
+from os import system
+
 class profile:
     def __init__(self, name):
         self.name       = name
@@ -19,4 +22,7 @@ class profile:
         print(f'My name : {self.name}')
         print(f'My hobby: {self.hobby}')
         print(f'Stick to one belief.')
+
+system('clear')
+profile('tukiphanz').main()
 ```
