@@ -10,7 +10,7 @@
 import nothing
 from os import system
 
-class profile:
+class Profile:
     def __init__(self, name):
         self.name       = name
         self.hobby      = 'scroll facebook'
@@ -23,5 +23,5 @@ class profile:
         print(f'Stick to one belief.')
 
 system('clear')
-profile('tukiphanz').main()
+Profile('ipan').main()
 ```
